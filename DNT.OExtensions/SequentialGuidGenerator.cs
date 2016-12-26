@@ -13,6 +13,7 @@ namespace DNT.OExtensions
 
         #region Methods
 
+
         #region New SequentialGuid
 
         public static Guid NewSequentialGuid(SequentialGuidType guidType = SequentialGuidType.SequentialAsBinary)
