@@ -5,6 +5,8 @@ namespace DNT.Extensions
 {
     public static class SequentialGuidGenerator
     {
+      
+
         #region Fileds
 
         private static readonly RNGCryptoServiceProvider _rng = new RNGCryptoServiceProvider();
