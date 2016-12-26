@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace DNT.OExtensions
+namespace DNT.Extensions
 {
     public static class SequentialGuidGenerator
     {
