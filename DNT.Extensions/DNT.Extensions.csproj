@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmailExtension.cs" />
+    <Compile Include="HtmlExtension.cs" />
+    <Compile Include="MoneyExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SequentialGuidGenerator.cs" />
     <Compile Include="string\StringExtensions.cs" />
