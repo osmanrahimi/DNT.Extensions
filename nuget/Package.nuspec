@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DNTExtensions</id>
+    <version>1.2</version>
+    <authors>Osman Rahimi</authors>
+    <owners>Osman Rahimi</owners>
+    <licenseUrl>https://github.com/osmanrahimi/DNT.Extensions/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/osmanrahimi/DNT.Extensions</projectUrl>
+   
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DNTExtensions is a Library that contains some useful Extension methods </description>
+    <releaseNotes>....</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>ExtensionMethod .NET</tags>
+  <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+<files >
+<file src="..\DNT.Extensions\bin\Release\*.dll" target="lib" />
+</files>
+</package>
