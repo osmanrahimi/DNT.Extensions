@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DNTExtensions</id>
-    <version>1.2</version>
+    <version>1.2.1</version>
     <authors>Osman Rahimi</authors>
     <owners>Osman Rahimi</owners>
     <licenseUrl>https://github.com/osmanrahimi/DNT.Extensions/LICENSE.md</licenseUrl>
@@ -14,7 +14,7 @@
     <copyright>Copyright 2017</copyright>
     <tags>ExtensionMethod .NET</tags>
   <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
+ 
     </dependencies>
   </metadata>
 <files >
