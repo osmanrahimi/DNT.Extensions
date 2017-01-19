@@ -59,5 +59,15 @@ namespace DNT.Extensions.String
         {
             return Regex.Replace(value, @"\s+", " ");
         }
+
+        public static string RemoveLineBreaks(this string value)
+        {
+            return value.Replace(@"\r\n", "").Replace(@"\n", "").Replace(@"\r", "");
+        }
+
+        public static string ReplaceLineBreaks(this string value,string replacement)
+        {
+            return value.Replace(Environment.NewLine, replacement);
+        }
     }
 }
